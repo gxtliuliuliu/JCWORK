@@ -19,7 +19,7 @@ public class HomeController {
     }
     @GetMapping("/admin/hello")
     public String adminhome(){
-        return "HELLO !!!!!admin";
+        return "HELLO !!!!!admin123";
     }
     @GetMapping("/user/hello")
     public String userhome(){
